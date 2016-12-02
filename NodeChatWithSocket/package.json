@@ -1,11 +1,11 @@
 {
-  "name": "socket-chat-example",
+  "name": "Using Sockets with Node JS for 2-Way Communication",
   "version": "0.0.1",
-  "description": "my first socket.io app",
+  "description": "This is simple chat application",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "4.10.2",
     "socket.io": "1.2.0",
-    "watson-developer-cloud": "^2.9.0"
+
   }
 }

@@ -1,19 +1,14 @@
 <!DOCTYPE html>
-<html >
-  <head>
+<html>
+
+<head>
     <meta charset="UTF-8">
-    <title>Direct Messaging</title>
+    <title>Conversation Room</title>
 
-
-    <link rel="stylesheet" href="css1/reset.css">
-
-
-        <link rel="stylesheet" href="css1/style.css">
-  </head>
-
-  <body style="overflow:hidden">
-
-    <div class="wrapper">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="wrapper">
     <div class="container" style="top:45%">
         <div class="left">
             <div class="top">
@@ -21,100 +16,92 @@
                 <a href="javascript:;" class="search"></a>
             </div>
             <ul class="people">
-            
-              <li class="person" data-chat="person1">
-                  <img src="user1.png" alt="" />
-                  <span class="name username">User1</span>
-                  <span class="preview">Online</span>
-              </li>
-			  <li class="person" data-chat="person2">
-                  <img src="user3.png" alt="" />
-                  <span class="name">User2</span>
-                  <span class="preview">Online</span>
-              </li>
-	
+
+                <li class="person" data-chat="person1">
+                    <img src="user1.png" alt="" />
+                    <span class="name username">User1</span>
+                    <span class="preview">Online</span>
+                </li>
+                <li class="person" data-chat="person2">
+                    <img src="user2.png" alt="" />
+                    <span class="name">User2</span>
+                    <span class="preview">Online</span>
+                </li>
+
             </ul>
         </div>
+        <!-- username field -->
         <div class="right">
-            <div class="top"><span><span class="name username"></span></span></div>
-            <div class="chat" data-chat="person2">
-
+            <div class="top"><span><span class="name username"></span></span>
             </div>
-
+            <!-- chat window -->
+            <div class="chat" data-chat="person2"></div>
             <div class="write">
-                <input type="text" id="m"/>
+                <input type="text" id="messageBox" />
                 <a href="javascript:;" class="write-link send" id="send"></a>
             </div>
         </div>
     </div>
 </div>
-    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
-    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
-        <script src="js1/index.js"></script>
+<script src="js/index.js"></script>
 <script>
-
-
-function getParameterByName(name, url) {
-    if (!url) {
-      url = window.location.href;
+    function getParameterByName(name, url) {
+        if (!url) {
+            url = window.location.href;
+        }
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return '';
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
-    name = name.replace(/[\[\]]/g, "\\$&");
-    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(url);
-    if (!results) return null;
-    if (!results[2]) return '';
-    return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
 
-function getDateData(){
-          var date = new Date();
-          var hours = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
-          var am_pm = date.getHours() >= 12 ? "PM" : "AM";
-          hours = hours < 10 ? "0" + hours : hours;
-          var minutes = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
-          var seconds = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
-          time = hours + ":" + minutes + ":" + seconds + " " + am_pm;
-          return time;
-}
+    function getDateData() {
+        var date = new Date();
+        var hours = date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
+        var am_pm = date.getHours() >= 12 ? "PM" : "AM";
+        hours = hours < 10 ? "0" + hours : hours;
+        var minutes = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
+        var seconds = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
+        time = hours + ":" + minutes + ":" + seconds + " " + am_pm;
+        return time;
+    }
 </script>
 <script>
-  $(".username").html(getParameterByName('username'));
-  
-		var socket = io();
-		var dataMessage={};
-		var flag=0;
-		var username="";
-        
-		
-		socket.on('message', function(msg){
-			
-			if(msg.username==getParameterByName('username'))
-			{
-				$(".chat").append('<div class="bubble me">'+msg.message+'</div>');
-				
-			}
-			else 
-			{
-				$(".chat").append('<div class="bubble you">'+msg.message+'</div>');
-			}
-		});
-		
-		function sendData(data){
-		socket.emit('chat message', data);
-		}
+    $(".username").html(getParameterByName('username'));
 
-            $('#send').click(function() {
-			 var message=$('#m').val();
-			 alert(message)
-			 $('#m').val('');
-             dataMessage.username=getParameterByName('username');
-			 dataMessage.message=message;
-             sendData(dataMessage);
-            });	
-			
+    var socket = io();
+    var dataMessage = {};
+    var username = "";
+
+    socket.on('message', function(msg) {
+
+        if (msg.username == getParameterByName('username')) {
+            $(".chat").append('<div class="bubble me">' + msg.message + '</div>');
+
+        } else {
+            $(".chat").append('<div class="bubble you">' + msg.message + '</div>');
+        }
+    });
+
+    function sendData(data) {
+        socket.emit('chat message', data);
+    }
+
+    $('#send').click(function() {
+        var message = $('#messageBox').val();
+        $('#messageBox').val('');
+        dataMessage.username = getParameterByName('username');
+        dataMessage.message = message;
+        sendData(dataMessage);
+    });
 </script>
 
 
-  </body>
+</body>
+
 </html>
