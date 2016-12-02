@@ -1,0 +1,15 @@
+{
+  "name": "iotnode",
+  "version": "1.0.0",
+  "description": "Nodejs application on ibmiotf",
+  "main": "app.js",
+  "dependencies": {
+    "ibmiotf": "^0.2.27"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "miracle labs",
+  "license": "ISC"
+}

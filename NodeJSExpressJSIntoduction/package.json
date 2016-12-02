@@ -1,0 +1,15 @@
+{
+  "name": "nodej",
+  "version": "1.0.0",
+  "description": "Description of application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Unique",
+    "key"
+  ],
+  "author": "",
+  "license": "ISC"
+}

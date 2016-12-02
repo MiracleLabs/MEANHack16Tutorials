@@ -78,7 +78,9 @@ The following are the technologies that are used in this lab. Any prior knowledg
 
 • Consuming Watson IoT APIs in a Web Application
 
-• Introduction to NoSQL DBs with Cloudant
+• Introduction to NoSQL DBs with Cloudant(No Code)
+
+The tutorials where it is mentioned "Node Code" will not have any associated folder and code templates in this repository. 
 
 ## Lab Contributors
 

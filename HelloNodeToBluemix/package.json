@@ -1,0 +1,15 @@
+{
+    "name": "node-app-miracle",
+    "version": "1.0.0",
+    "description": "Sample ExpressJS application to create a RESTAPI",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.13.4"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "miracle labs",
+    "license": "ISC"
+}
