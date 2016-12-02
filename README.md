@@ -1,4 +1,4 @@
-# MEANHack '16 Training - Code Packets(Coming Soon!)
+# MEANHack '16 Training - Code Packets
 
 MEANHack '16 is a 24-hour code-a-thon conducted as part of Digital Summit 2016 from December 16th-17th, 2016 in Visakhapatnam, AP. The code-a-thon is aimed at allowing students to build creative new applications focussed around Cloud, MEAN Stack, Cognitive, IoT and Mobile technologies. Students compete to build a working prototype of one of three applications that Miracle needs for 2017 to improve productivity and experience of its employees.
 
@@ -80,7 +80,7 @@ The following are the technologies that are used in this lab. Any prior knowledg
 
 • Introduction to NoSQL DBs with Cloudant(No Code)
 
-The tutorials where it is mentioned "Node Code" will not have any associated folder and code templates in this repository. 
+The tutorials where it is mentioned "Node Code" will not have any associated folder and code templates in this repository.
 
 ## Lab Contributors
 
