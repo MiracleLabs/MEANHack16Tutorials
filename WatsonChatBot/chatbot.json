@@ -1,0 +1,494 @@
+{
+    "name": "Conversation-APCloud"
+    , "created": "2016-11-30T06:05:08.572Z"
+    , "intents": [{
+        "intent": "APCloud"
+        , "created": "2016-11-30T06:11:47.006Z"
+        , "updated": "2016-11-30T06:11:47.006Z"
+        , "examples": [{
+            "text": "how actually AP Cloud is helping students?"
+            , "created": "2016-11-30T06:11:47.006Z"
+            , "updated": "2016-11-30T06:11:47.006Z"
+        }, {
+            "text": "How does AP CLoud Help"
+            , "created": "2016-11-30T06:11:47.006Z"
+            , "updated": "2016-11-30T06:11:47.006Z"
+        }, {
+            "text": "Mission of APCloud"
+            , "created": "2016-11-30T06:11:47.006Z"
+            , "updated": "2016-11-30T06:11:47.006Z"
+        }, {
+            "text": "Tell me about APCLoud"
+            , "created": "2016-11-30T06:11:47.006Z"
+            , "updated": "2016-11-30T06:11:47.006Z"
+        }, {
+            "text": "What is AP Cloud?"
+            , "created": "2016-11-30T06:11:47.006Z"
+            , "updated": "2016-11-30T06:11:47.006Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "Capabilites"
+        , "created": "2016-11-30T06:10:06.661Z"
+        , "updated": "2016-11-30T06:10:06.661Z"
+        , "examples": [{
+            "text": "help"
+            , "created": "2016-11-30T06:10:06.661Z"
+            , "updated": "2016-11-30T06:10:06.661Z"
+        }, {
+            "text": "howare you going to help me"
+            , "created": "2016-11-30T06:10:06.661Z"
+            , "updated": "2016-11-30T06:10:06.661Z"
+        }, {
+            "text": "need help"
+            , "created": "2016-11-30T06:10:06.661Z"
+            , "updated": "2016-11-30T06:10:06.661Z"
+        }, {
+            "text": "tell me what things you can do"
+            , "created": "2016-11-30T06:10:06.661Z"
+            , "updated": "2016-11-30T06:10:06.661Z"
+        }, {
+            "text": "what are you"
+            , "created": "2016-11-30T06:10:06.661Z"
+            , "updated": "2016-11-30T06:10:06.661Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "Digital_Summit"
+        , "created": "2016-11-30T06:13:13.906Z"
+        , "updated": "2016-11-30T06:13:13.906Z"
+        , "examples": [{
+            "text": "How digital summit will help us"
+            , "created": "2016-11-30T06:13:13.906Z"
+            , "updated": "2016-11-30T06:13:13.906Z"
+        }, {
+            "text": "what exactly Miracle is showcasing in Digital Summit"
+            , "created": "2016-11-30T06:13:13.906Z"
+            , "updated": "2016-11-30T06:13:13.906Z"
+        }, {
+            "text": "What is Digital summit"
+            , "created": "2016-11-30T06:13:13.906Z"
+            , "updated": "2016-11-30T06:13:13.906Z"
+        }, {
+            "text": "what is the purpose of digital summit"
+            , "created": "2016-11-30T06:13:13.906Z"
+            , "updated": "2016-11-30T06:13:13.906Z"
+        }, {
+            "text": "what will be there in Digital Summit"
+            , "created": "2016-11-30T06:13:13.906Z"
+            , "updated": "2016-11-30T06:13:13.906Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "goodbye"
+        , "created": "2016-11-30T06:09:04.655Z"
+        , "updated": "2016-11-30T06:09:04.655Z"
+        , "examples": [{
+            "text": "bye"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }, {
+            "text": "bye bye"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }, {
+            "text": "good bye"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }, {
+            "text": "logging off"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }, {
+            "text": "thanks watson"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }, {
+            "text": "thank you"
+            , "created": "2016-11-30T06:09:04.655Z"
+            , "updated": "2016-11-30T06:09:04.655Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "Greeting"
+        , "created": "2016-11-30T06:07:46.753Z"
+        , "updated": "2016-11-30T06:07:46.753Z"
+        , "examples": [{
+            "text": "good morning"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }, {
+            "text": "hello"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }, {
+            "text": "hello watson"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }, {
+            "text": "hey"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }, {
+            "text": "hey there"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30 T06:07:46.753Z"
+        }, {
+            "text": "Hi there"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }, {
+            "text": "Hola"
+            , "created": "2016-11-30T06:07:46.753Z"
+            , "updated": "2016-11-30T06:07:46.753Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "MiracleInfo"
+        , "created": "2016-11-30T06:14:41.616Z"
+        , "updated": "2016-11-30T06:14:41.616Z"
+        , "examples": [{
+            "text": "Tell me about Miracle"
+            , "created": "2016-11-30T06:14:41.616Z"
+            , "updated": "2016-11-30T06:14:41.616Z"
+        }, {
+            "text": "Tell me what exactly Miraclesoft is?"
+            , "created": "2016-11-30T06:14:41.616Z"
+            , "updated": "2016-11-30T06:14:41.616Z"
+        }, {
+            "text": "what is MIracle doing"
+            , "created": "2016-11-30T06:14:41.616Z"
+            , "updated": "2016-11-30T06:14:41.616Z"
+        }, {
+            "text": "Who is Miraclesoft"
+            , "created": "2016-11-30T06:14:41.616Z"
+            , "updated": "2016-11-30T06:14:41.616Z"
+        }, {
+            "text": "who made you"
+            , "created": "2016-11-30T06:14:41.616Z"
+            , "updated": "2016-11-30T06:14:41.616Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "offtopic"
+        , "created": "2016-11-30T06:46:30.013Z"
+        , "updated": "2016-11-30T06:46:30.013Z"
+        , "examples": [{
+            "text": "book"
+            , "created": "2016-11-30T06:46:30.013Z"
+            , "updated": "2016-11-30T06:46:30.013Z"
+        }, {
+            "text": "Burger"
+            , "created": "2016-11-30T06:46:30.013Z"
+            , "updated": "2016-11-30T06:46:30.013Z"
+        }, {
+            "text": "Get me the pizza along with cheese"
+            , "created": "2016-11-30T06:46:30.013Z"
+            , "updated": "2016-11-30T06:46:30.013Z"
+        }, {
+            "text": "pen"
+            , "created": "2016-11-30T06:46:30.013Z"
+            , "updated": "2016-11-30T06:46:30.013Z"
+        }, {
+            "text": "Pizza"
+            , "created": "2016-11-30T06:46:30.013Z"
+            , "updated": "2016-11-30T06:46:30.013Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "Sessions"
+        , "created": "2016-11-30T06:15:44.701Z"
+        , "updated": "2016-11-30T06:15:44.701Z"
+        , "examples": [{
+            "text": "sessions?"
+            , "created": "2016-11-30T06:15:44.701Z"
+            , "updated": "2016-11-30T06:15:44.701Z"
+        }, {
+            "text": "sessions timings"
+            , "created": "2016-11-30T06:15:44.701Z"
+            , "updated": "2016-11-30T06:15:44.701Z"
+        }, {
+            "text": "what sort of sessions are available?"
+            , "created": "2016-11-30T06:15:44.701Z"
+            , "updated": "2016-11-30T06:15:44.701Z"
+        }, {
+            "text": "what will be there in the sessions"
+            , "created": "2016-11-30T06:15:44.701Z"
+            , "updated": "2016-11-30T06:15:44.701Z"
+        }, {
+            "text": "who will be giving the sessions"
+            , "created": "2016-11-30T06:15:44.701Z"
+            , "updated": "2016-11-30T06:15:44.701Z"
+        }]
+        , "description": null
+    }, {
+        "intent": "Speakers"
+        , "created": "2016-11-30T06:33:07.575Z"
+        , "updated": "2016-11-30T06:33:07.575Z"
+        , "examples": [{
+            "text": "speakers of sessions"
+            , "created": "2016-11-30T06:33:07.575Z"
+            , "updated": "2016-11-30T06:33:07.575Z"
+        }, {
+            "text": "who are going to be the speakers"
+            , "created": "2016-11-30T06:33:07.575Z"
+            , "updated": "2016-11-30T06:33:07.575Z"
+        }, {
+            "text": "who are speakers"
+            , "created": "2016-11-30T06:33:07.575Z"
+            , "updated": "2016-11-30T06:33:07.575Z"
+        }, {
+            "text": "who are the speakers for summit"
+            , "created": "2016-11-30T06:33:07.575Z"
+            , "updated": "2016-11-30T06:33:07.575Z"
+        }, {
+            "text": "who will be the speakers of the digital summit"
+            , "created": "2016-11-30T06:33:07.575Z"
+            , "updated": "2016-11-30T06:33:07.575Z"
+        }]
+        , "description": null
+    }]
+    , "updated": "2016-11-30T19:14:06.125Z"
+    , "entities": [{
+        "type": null
+        , "entity": "about_APCloud"
+        , "source": null
+        , "values": [{
+            "value": "AP Cloud"
+            , "created": "2016-11-30T06:17:32.916Z"
+            , "updated": "2016-11-30T06:17:32.916Z"
+            , "metadata": null
+            , "synonyms": ["APCloud"]
+        }]
+        , "created": "2016-11-30T06:17:32.916Z"
+        , "updated": "2016-11-30T06:17:32.916Z"
+        , "open_list": false
+        , "description": null
+    }, {
+        "type": null
+        , "entity": "Company"
+        , "source": null
+        , "values": [{
+            "value": "Miracle"
+            , "created": "2016-11-30T06:18:19.188Z"
+            , "updated": "2016-11-30T06:18:19.188Z"
+            , "metadata": null
+            , "synonyms": ["Miraclesoft", "Miracle Software Systems"]
+        }]
+        , "created": "2016-11-30T06:18:19.188Z"
+        , "updated": "2016-11-30T06:18:19.188Z"
+        , "open_list": false
+        , "description": null
+    }, {
+        "type": null
+        , "entity": "Digital_Summit"
+        , "source": null
+        , "values": [{
+            "value": "Digital Summit"
+            , "created": "2016-11-30T06:19:06.341Z"
+            , "updated": "2016-11-30T06:19:06.341Z"
+            , "metadata": null
+            , "synonyms": ["Digital Summit-16", "Summit"]
+        }]
+        , "created": "2016-11-30T06:19:06.341Z"
+        , "updated": "2016-11-30T06:19:06.341Z"
+        , "open_list": false
+        , "description": null
+    }, {
+        "type": null
+        , "entity": "sesions"
+        , "source": null
+        , "values": [{
+            "value": "Sessions"
+            , "created": "2016-11-30T06:20:38.793Z"
+            , "updated": "2016-11-30T06:20:38.793Z"
+            , "metadata": null
+            , "synonyms": ["session", "technical sessions"]
+        }]
+        , "created": "2016-11-30T06:20:38.793Z"
+        , "updated": "2016-11-30T06:20:38.793Z"
+        , "open_list": false
+        , "description": null
+    }, {
+        "type": null
+        , "entity": "Speakers"
+        , "source": null
+        , "values": [{
+            "value": "Speaker"
+            , "created": "2016-11-30T06:19:54.208Z"
+            , "updated": "2016-11-30T06:19:54.208Z"
+            , "metadata": null
+            , "synonyms": ["speaker", "spokesperson"]
+        }]
+        , "created": "2016-11-30T06:19:54.208Z"
+        , "updated": "2016-11-30T06:19:54.208Z"
+        , "open_list": false
+        , "description": null
+    }]
+    , "language": "en"
+    , "metadata": {
+        "runtime_version": "2016-09-20"
+    }
+    , "description": "A sample bot which tells about AP Cloud"
+    , "dialog_nodes": [{
+        "go_to": null
+        , "output": {
+            "text": "APCloud is an initiative that backed by Miracle Software Systems along with numerous IT forms.\nThe mission of AP Cloud is to create 100,000(1 lakh) Digital Transformation Professionals in Andhra Pradesh. \nWith the support of 300 associated colleges and a team of 50 from Miracle will be enabling students across cities \nand towns in next 24 months with the single goal to make the AP as Digital Transformation and conducting Digital Summit on December 12th."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:28:38.054Z"
+        , "updated": "2016-11-30T06:29:14.990Z"
+        , "metadata": null
+        , "conditions": "#APCloud && @about_APCloud"
+        , "description": null
+        , "dialog_node": "node_8_1480487318926"
+        , "previous_sibling": "node_7_1480487263196"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Digital Summit 2016 is the destination for world class digital transformation skills and conference that begins \non December 12th at Visakhapatnam. Bringing together digital business leaders, IT innovators, academia, digital systems integrators, \nand public sector leaders to discuss and share digital technology success stories, insights, and the direction this journey is heading. \nSpace is limited so register to attend today!"
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:27:41.880Z"
+        , "updated": "2016-11-30T06:28:37.466Z"
+        , "metadata": null
+        , "conditions": "#Digital_Summit && @Digital_Summit"
+        , "description": null
+        , "dialog_node": "node_7_1480487263196"
+        , "previous_sibling": "node_5_1480487129368"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Hello I am Watson. Hope you are doing good"
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:21:17.262Z"
+        , "updated": "2016-11-30T06:22:39.838Z"
+        , "metadata": null
+        , "conditions": "conversation_start"
+        , "description": null
+        , "dialog_node": "node_1_1480486878584"
+        , "previous_sibling": null
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Hello! I'm doing good. I'm here to help you to know more about APCloud, \nDigital Summit, Technologies, Speakers, Sessions, and about our company, Miracle Software, \nthat can help you implement these solutions today."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:22:55.839Z"
+        , "updated": "2016-11-30T06:23:44.545Z"
+        , "metadata": null
+        , "conditions": "#Greeting"
+        , "description": null
+        , "dialog_node": "node_3_1480486977192"
+        , "previous_sibling": "node_1_1480486878584"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "I am trouble understanding you. So ask me about APCloud, about Digital Summit."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:21:38.444Z"
+        , "updated": "2016-11-30T06:38:39.994Z"
+        , "metadata": null
+        , "conditions": "anything_else"
+        , "description": null
+        , "dialog_node": "node_2_1480486899741"
+        , "previous_sibling": "node_11_1480487637269"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "I'm programmed to tell you about the APCloud team-mission, Digital Summit and about our company, Miracle Software Systems."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:23:45.089Z"
+        , "updated": "2016-11-30T06:25:27.895Z"
+        , "metadata": null
+        , "conditions": "#Capabilites"
+        , "description": null
+        , "dialog_node": "node_4_1480487025975"
+        , "previous_sibling": "node_3_1480486977192"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Speakers/Guests of the Digital Summit are Shri Nara Chandrababu Naidu,\nState Chief Minister - AP, India. \nShri Palle Raghunatha Reddy, State IT Minister- AP, India. \nShri Ganta Srinivasarao,\nState Human Resources Development Minister ,\nAP,India. \nChanakya Lokam,\nVP Innovation Labs,\nMiracle Software Systems, Inc."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:31:34.344Z"
+        , "updated": "2016-11-30T06:33:50.786Z"
+        , "metadata": null
+        , "conditions": "#Speakers"
+        , "description": null
+        , "dialog_node": "node_10_1480487495644"
+        , "previous_sibling": "node_9_1480487356451"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Sure, let me know if you want to know more."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:33:55.932Z"
+        , "updated": "2016-11-30T06:34:30.205Z"
+        , "metadata": null
+        , "conditions": "#goodbye"
+        , "description": null
+        , "dialog_node": "node_11_1480487637269"
+        , "previous_sibling": "node_10_1480487495644"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "Tuesday, December 13: (10:30AM –6:00PM)\nMicroSoft Technical Summit.\nWednesday, December 14\n(10:30AM –6:00PM)\nMicroSoft Technical Summit.\nThursday, December 15\n(10:30AM –6:00PM)\nIBM Technical Summit.\n\nDigital Hackathon:\nFriday, December 16\n(10:30AM to 2:00PM)  the following day."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:29:15.552Z"
+        , "updated": "2016-11-30T06:29:53.943Z"
+        , "metadata": null
+        , "conditions": "#Sessions"
+        , "description": null
+        , "dialog_node": "node_9_1480487356451"
+        , "previous_sibling": "node_8_1480487318926"
+    }, {
+        "go_to": null
+        , "output": {
+            "text": "You can visit the Miracle website by clicking <a href=\"http://www.miraclesoft.com\">here</a> to get in touch with us and find out more."
+        }
+        , "parent": "node_5_1480487129368"
+        , "context": null
+        , "created": "2016-11-30T06:26:19.613Z"
+        , "updated": "2016-11-30T06:27:52.478Z"
+        , "metadata": null
+        , "conditions": "#MiracleInfo && @Company"
+        , "description": null
+        , "dialog_node": "node_6_1480487180939"
+        , "previous_sibling": null
+    }, {
+        "go_to": {
+            "return": null
+            , "selector": "body"
+            , "dialog_node": "node_6_1480487180939"
+        }
+        , "output": {
+            "text": "Miracle Software Systems is a Global Systems Integrator, headquartered in Novi, Michigan. With over 20 years of \nindustry experience, Miracle and its team of 2000 employees have been helping numerous Fortune 1000 customers to \nachieve their business goals through technology."
+        }
+        , "parent": null
+        , "context": null
+        , "created": "2016-11-30T06:25:28.430Z"
+        , "updated": "2016-11-30T06:27:36.549Z"
+        , "metadata": null
+        , "conditions": "#MiracleInfo && @Company"
+        , "description": null
+        , "dialog_node": "node_5_1480487129368"
+        , "previous_sibling": "node_4_1480487025975"
+    }]
+    , "workspace_id": "8a936a62-cf22-4ca2-8d0d-f5fd7e0d822f"
+    , "counterexamples": []
+}
